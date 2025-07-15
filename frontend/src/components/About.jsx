@@ -1,5 +1,5 @@
-import aboutImg from "../assets/react-portfolio-assets-kevin-main/assets/about.jpg";
-import { ABOUT_TEXT } from "../assets/react-portfolio-assets-kevin-main/constants";
+import aboutImg from "../assets/asset/about.jpg";
+import { ABOUT_TEXT } from "../assets/constants";
 import { motion } from "framer-motion";
 const About = () => {
     return (

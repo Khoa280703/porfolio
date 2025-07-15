@@ -1,4 +1,4 @@
-import { PROJECTS } from "../assets/react-portfolio-assets-kevin-main/constants";
+import { PROJECTS } from "../assets/constants";
 import { motion } from "framer-motion";
 
 const Projects = () => {

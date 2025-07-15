@@ -1,4 +1,4 @@
-import { EXPERIENCES } from "../assets/react-portfolio-assets-kevin-main/constants";
+import { EXPERIENCES } from "../assets/constants";
 import { motion } from "framer-motion";
 
 const Experience = () => {

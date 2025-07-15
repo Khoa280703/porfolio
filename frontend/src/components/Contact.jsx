@@ -1,4 +1,4 @@
-import { CONTACT } from "../assets/react-portfolio-assets-kevin-main/constants";
+import { CONTACT } from "../assets/constants";
 import { motion } from "framer-motion";
 
 const Contact = () => {
