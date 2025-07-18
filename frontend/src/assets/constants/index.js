@@ -35,7 +35,7 @@ export const PROJECTS = [
     title: "USSH-VNHCM",
     image: ussh,
     description:
-      "Software application of University of Social Sciences and Humanities, Vietnam National University Ho Chi Minh City",
+      "Software application of Ho Chi Minh City University of Social Sciences and Humanities",
     technologies: ["Flutter", "NodeJS", "Oracle"],
   },
   {
