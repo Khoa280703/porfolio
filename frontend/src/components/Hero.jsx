@@ -1,6 +1,7 @@
 import { HERO_CONTENT } from "../assets/constants/index";
 import profilePic from "../assets/asset/avata.jpg";
 import { motion } from "framer-motion";
+import ModelViewer from "./ModelViewer";
 
 const container = (delay) => ({
     hidden: { x: -100, opacity: 0 },
@@ -27,7 +28,9 @@ const Hero = () => {
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center">
-                        <motion.img initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1, delay: 1.2 }} src={profilePic} className="h-150 rounded" alt="Bùi Đăng Khoa" />
+                        <motion.div initial={{ x: 100, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 1 }} className="w-400 h-200">
+                            <ModelViewer />
+                        </motion.div>
                     </div>
                 </div>
             </div>
@@ -35,4 +38,4 @@ const Hero = () => {
     );
 };
 
-export default Hero;
+export default Hero;;
