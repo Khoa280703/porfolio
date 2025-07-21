@@ -18,7 +18,7 @@ const Projects = () => {
                         initial={{ opacity: 0, x: -100 }}
                         trasition={{ duration: 1 }}
                         className="w-full lg:w-1/4">
-                        <img className="mb-6 rounded" src={project.image} alt={project.title} width={150} height={150} />
+                        <img className="mb-6 rounded mt-2" src={project.image} alt={project.title} width={150} height={150} />
                     </motion.div>
                     <motion.div
                         whileInView={{ opacity: 1, x: 0 }}

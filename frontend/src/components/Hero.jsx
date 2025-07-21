@@ -1,5 +1,4 @@
 import { HERO_CONTENT } from "../assets/constants/index";
-import profilePic from "../assets/asset/avata.jpg";
 import { motion } from "framer-motion";
 import ModelViewer from "./ModelViewer";
 

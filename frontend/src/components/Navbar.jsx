@@ -1,5 +1,6 @@
 import logo from '../assets/asset/HCMCUT.svg';
 import { FaLinkedin, FaGithub, FaFacebook } from 'react-icons/fa';
+import CV from "../../public/BuiDangKhoa-SoftwareDeveloper.pdf";
 
 const Navbar = () => {
     return (
@@ -8,7 +9,14 @@ const Navbar = () => {
                 <img className="mx-2 w-15" src={logo} alt="Logo" />
             </div>
             <div className="m-8 flex items-center justify-center gap-4 text-2xl">
-                {/* Bọc mỗi icon trong một thẻ <a> và thêm link vào href */}
+                <a
+                    href={CV} // Đường dẫn đến file trong thư mục public
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xl hover:text-sky-700"
+                >
+                    Download CV
+                </a>
                 <a href="https://www.linkedin.com/in/khoa-b%C3%B9i-728a4730a/" target="_blank" rel="noopener noreferrer">
                     <FaLinkedin />
                 </a>
