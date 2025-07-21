@@ -13,7 +13,7 @@ const Navbar = () => {
                     href={CV} // Đường dẫn đến file trong thư mục public
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xl hover:text-sky-700"
+                    className="text-base hover:text-sky-700"
                 >
                     Download CV
                 </a>
